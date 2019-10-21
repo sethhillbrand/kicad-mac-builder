@@ -13,6 +13,7 @@ ExternalProject_Add(
                             --enable-html
                             --enable-stl
                             --disable-mediactrl
+                            --disable-debug_flag
                             --with-libjpeg=builtin
                             --with-libpng=builtin
                             --with-regex=builtin
